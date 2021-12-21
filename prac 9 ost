@@ -1,0 +1,7 @@
+def my func():
+return lambda function
+return lambda n:n*2
+doubleit=my func()
+print(doubleit(1))
+print(doubleit(2))
+print(doubleit(3))
